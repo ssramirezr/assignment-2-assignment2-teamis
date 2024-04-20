@@ -39,7 +39,7 @@ def main():
             prod_input = input().split()
             G[prod_input[0]] = prod_input[1:]
         # print("Ingrese las cadenas a analizar:")
-        for i in range(n[1]):  # Probar las cadenas
+        for i in range(n[1]):  # Verificar las cadenas
             if n[1] == 1 or i == 0:
                 print("Ingrese la cadena a analizar:")
             else:
@@ -53,5 +53,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
     
